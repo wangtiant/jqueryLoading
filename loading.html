@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>示例</title>
+    <link rel="stylesheet" type="text/css" href="./base.css">
+    <link rel="stylesheet" type="text/css" href="./loading.css">
+    <script src="./jquery.min.js"></script>
+    <script src="./loading.js"></script>
+</head>
+<body>
+<script>
+    $.loading.start('加载中')
+    setTimeout(function () {
+        $.loading.end()
+    },3000)
+</script>
+</body>
+</html>
